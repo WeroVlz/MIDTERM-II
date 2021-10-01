@@ -34,7 +34,6 @@ $(".btn").click(function(){
     }
     $(".btn").removeClass("pressed");
     $(this).addClass("pressed");
-    $(".resetb").addClass("pressed");
     calculateTip(totalBill,totalPersons,tipValue)
 });
 
