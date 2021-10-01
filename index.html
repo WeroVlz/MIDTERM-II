@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Tip calculator app</title>
+
+</head>
+
+<body>
+  <h1>
+    <img src="./images/logo.svg" class="cal-title">
+  </h1>
+  <div class="container">
+    <div class="row">
+      <div class="column a">
+
+        <div class="input1">
+          <form name="totalBill">
+            <p style="font-weight: 700; color: hsl(184, 14%, 56%);">Bill</p>
+            <input class="input-field if1" type="number" name="numTotalBill" id="numTotalBill" placeholder="0" min="0" step="0.01" onkeydown="return event.keyCode !== 69"/>
+          </form>
+        </div>
+        <div class="buttons">
+          <p style="font-weight: 700; color: hsl(184, 14%, 56%);">Select Tip %</p>
+          <div class="row1">
+            <div type="button" id="btn5" class="btn 5" value="5">5%
+            </div>
+            <div type="button" id="btn10" class="btn 10" value="10">10%
+            </div>
+            <div type="button" id="btn15" class="btn 15" value="15">15%
+            </div>
+          </div>
+          <div class="row2">
+            <div type="button" id="btn25" class="btn 25" value="25">25%
+            </div>
+            <div type="button" id="btn50" class="btn 50" value="50">50%
+            </div>
+            <form>
+              <input class="input-field if2" type="number" name="numCustom" id="numCustom" placeholder="Custom" min="0" step="any"  onkeydown="return event.keyCode !== 69"/>
+            </form>
+          </div>
+        </div>
+        <div class="input2">
+          <form name="totalPersons">
+            <p style="font-weight: 700; color: hsl(184, 14%, 56%);">Number of People</p>
+            <input class="input-field if3" type="number" name="numTotalPersons" id="numTotalPersons" placeholder="0" min="0" onkeydown="return event.keyCode !== 69"/>
+          </form>
+        </div>
+
+      </div>
+      <div class="column b">
+          <div class="r1b">
+              <p class="t1">Tip Amount</p>
+              <p class="t2">/ person</p>
+          </div>
+          <div class="r2b">
+              <p class="price1">$0.00</p>
+          </div>
+          <div class="r3b">
+            <p class="t1">Total</p>
+            <p class="t2">/ person</p>
+          </div>
+          <div class="r4b">
+              <p class="price2">$0.00</p>
+          </div>
+        <div class="r5">
+          <div type="button" id="reset" class="resetb">RESET</div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>

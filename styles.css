@@ -1,0 +1,224 @@
+.cal-title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 4%;
+}
+
+body{
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono';
+}
+
+.container{
+    display: block;
+    margin: auto;
+    width: 730px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 70px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+
+.a{
+    width: 325px;
+    height: 320px;
+    position: relative;
+    bottom: -25px;
+    right: -40px;
+}
+
+.b{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    width: 325px;
+    height: 350px;
+    position: relative;
+    right: -55px;
+    bottom: -25px;
+}
+
+#reset{
+    background-color: hsl(186, 14%, 43%);
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono';
+    font-weight: 700;
+    border-radius: 4px;
+    width: 265px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+    position: relative;
+    top: -85px;
+    text-align: center;
+}
+
+
+.r1b{
+    margin-top: 40px;
+    position: relative;
+    right: -30px;
+}
+
+.r2b{
+    color: hsl(172, 67%, 45%);
+    font-weight: 700;
+    font-size: 2rem;
+    position: relative;
+    right: -190px;
+    top: -90px;
+}
+
+.r3b{
+    position: relative;
+    right: -30px;
+    top: -80px;
+}
+
+.r4b{
+    color: hsl(172, 67%, 45%);
+    font-weight: 700;
+    font-size: 2rem;
+    position: relative;
+    right: -190px;
+    top: -170px;
+}
+.t1{
+    color: hsl(0, 0%, 100%); 
+    font-size: 14px;
+}
+
+.t2{
+    position: relative;
+    top: -15px; 
+    color: hsl(172, 67%, 45%); 
+    font-size: 12px;
+}
+
+.if1{
+    width: 275px;
+    height: 40px;
+    position: relative;
+    top: -11px;
+    border: 0;
+    border-radius: 5px;
+    background: url('./images/icon-dollar.svg') no-repeat scroll 7px 7px;
+    background-color: hsl(189, 41%, 97%);
+    background-size: 13px;
+    padding-left: 30px;
+    text-align: end;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(184, 14%, 56%);
+}
+
+.if3{
+    width: 275px;
+    height: 40px;
+    position: relative;
+    top: -11px;
+    border: 0;
+    border-radius: 5px;
+    background: url('./images/icon-person.svg') no-repeat scroll 7px 7px;
+    background-color: hsl(189, 41%, 97%);
+    background-size: 13px;
+    padding-left: 30px;
+    text-align: end;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(184, 14%, 56%);
+}
+
+.btn{
+    display: inline-block;
+    width: 95px;
+    height: 2.5rem;
+    background-color: hsl(183, 100%, 15%);
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.if2{
+    display: inline-block;
+    width: 91px;
+    height: 2.4rem;
+    border: 0;
+    background-color: hsl(189, 41%, 97%);
+    font-family: 'Space Mono';
+    font-size: 20px;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 5px;
+    font-weight: 700;
+    position: relative;
+    right: -210px;
+    top: -2.5rem;
+    color: hsl(183, 100%, 15%);
+}
+
+.row2{
+    position: relative;
+    bottom: -10px;
+}
+
+.input2{
+    position: relative;
+    top: -17px;
+}
+
+.btn:hover{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+#reset:hover{
+    background-color: hsl(172, 67%, 45%);
+}
+
+.input-field:hover{
+    outline-color:hsl(172, 67%, 45%);
+}
+
+.input-field:focus{
+    outline-color:hsl(172, 67%, 45%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.if1::placeholder{
+    color: hsl(184, 14%, 56%);
+    position: relative;
+    left: -5px;
+}
+
+.if3::placeholder{
+    color: hsl(184, 14%, 56%);
+    position: relative;
+    left: -5px;
+}
+
+
+.if2::placeholder{
+    text-align: center;
+}
+
+.pressed{
+    background-color: hsl(172, 67%, 45%);
+}
