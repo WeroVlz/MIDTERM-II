@@ -71,8 +71,9 @@ body{
     font-weight: 700;
     font-size: 2rem;
     position: relative;
-    right: -190px;
+    left: -30px;
     top: -90px;
+    text-align: right;
 }
 
 .r3b{
@@ -86,8 +87,9 @@ body{
     font-weight: 700;
     font-size: 2rem;
     position: relative;
-    right: -190px;
+    right: 30px;
     top: -170px;
+    text-align: right;
 }
 .t1{
     color: hsl(0, 0%, 100%); 
@@ -221,4 +223,79 @@ input::-webkit-inner-spin-button {
 
 .pressed{
     background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+.ceroValue{
+    border: 1px solid red;
+}
+
+
+@media only screen and (max-width: 375px){
+    body{
+
+    }
+    .cal-title{
+        position: relative;
+        width: 25%;
+        right: -5px;
+        bottom: -30px;
+    }
+    .container{
+        display: block;
+        position: relative;
+        left: -8px;
+        width: 380px;
+        height: 730px;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 100%);
+        margin-top: 70px;
+    }
+    .input1{
+        position: relative;
+        left: -15px;
+    }
+    .input2{
+        position: relative;
+        left: -15px;
+    }
+    .input-field{
+        width: 300px;
+    }
+    
+    .buttons{
+        position: relative;
+        left: -15px;
+    }
+
+    .btn{
+        width: 100px;
+    }
+
+    .if2{
+        position: relative;
+        right: -220px;
+        width: 95px;
+        font-size: 20px;
+
+    }
+
+    .b{
+        position: relative;
+        bottom: -75px;
+        right: -24px;
+        width: 335px;
+        height: 250px;
+    }
+
+    #reset{
+        position: relative;
+        bottom: -200px;
+        top: -175px;
+        width: 280px;
+    }
+    
+
+    
+
 }
